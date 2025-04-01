@@ -260,25 +260,48 @@ header .wrapper .hamburger {
   display: flex;
 }
 
-.tile-images .wrapper img {
+.tile-images.rlr .wrapper img {
   justify-content: left;
   max-width: 60%;
   margin-bottom: -50px;
 }
 
-.tile-images .wrapper img:nth-child(1) {
+.tile-images.rlr .wrapper img:nth-child(1) {
   float: right;
   z-index: 1;
   margin-top: 50px;
 }
 
-.tile-images .wrapper img:nth-child(2) {
+.tile-images.rlr .wrapper img:nth-child(2) {
   float: left;
   z-index: 2;
 }
 
-.tile-images .wrapper img:nth-child(3) {
+.tile-images.rlr .wrapper img:nth-child(3) {
   float: right;
+  margin-bottom: 50px;
+  z-index: 3;
+}
+
+.tile-images.lrl .wrapper img {
+  justify-content: right;
+  max-width: 60%;
+  margin-bottom: -50px;
+}
+
+.tile-images.lrl .wrapper img:nth-child(1) {
+  float: left;
+  z-index: 1;
+  margin-top: 50px;
+}
+
+.tile-images.lrl .wrapper img:nth-child(2) {
+  float: right;
+  z-index: 2;
+}
+
+.tile-images.lrl .wrapper img:nth-child(3) {
+  float: left;
   margin-bottom: 50px;
   z-index: 3;
 }
