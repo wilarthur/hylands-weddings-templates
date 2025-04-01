@@ -266,3 +266,13 @@ header .wrapper .hamburger {
   margin-bottom: 50px;
   z-index: 3;
 }
+
+/* Full width image */
+
+.full-width-image img {
+  max-height: 100vh;
+  min-height: 375px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+}
