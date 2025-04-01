@@ -178,6 +178,7 @@ header .wrapper .hamburger {
 }
 
 .content-centre .wrapper .link-wrapper,
+.content-left .wrapper .link-wrapper,
 .content-right .wrapper .link-wrapper {
   display: flex;
   justify-content: center;
@@ -186,6 +187,7 @@ header .wrapper .hamburger {
 }
 
 .content-centre .wrapper .link-wrapper a.button,
+.content-left .wrapper .link-wrapper a.button,
 .content-right .wrapper .link-wrapper a.button {
   text-align: center;
   padding: 12px 28px;
@@ -198,26 +200,31 @@ header .wrapper .hamburger {
 }
 
 .content-centre .wrapper .link-wrapper a.button:hover,
+.content-left .wrapper .link-wrapper a.button:hover,
 .content-right .wrapper .link-wrapper a.button:hover {
   box-shadow: inset 0 -50px 0 0px #735775;
   color: white;
 }
 
+.content-left .wrapper,
 .content-right .wrapper {
   display: flex;
 }
 
+.content-left .wrapper img,
 .content-right .wrapper img {
   width: 50%;
   object-fit: cover;
   padding: 25px;
 }
 
+.content-left .wrapper .content,
 .content-right .wrapper .content {
   width: 50%;
   padding: 25px;
 }
 
+.content-left .wrapper h2,
 .content-right .wrapper h2 {
   font-size: 48px;
   line-height: 73px;
@@ -226,6 +233,7 @@ header .wrapper .hamburger {
   font-weight: lighter;
 }
 
+.content-left .wrapper p,
 .content-right .wrapper p {
   font-size: 20px;
   line-height: 30px;
@@ -234,6 +242,7 @@ header .wrapper .hamburger {
   font-weight: lighter;
 }
 
+.content-left .wrapper .link-wrapper,
 .content-right .wrapper .link-wrapper {
   justify-content: left;
 }
