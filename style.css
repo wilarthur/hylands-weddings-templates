@@ -152,6 +152,7 @@ header .wrapper .hamburger {
 /* Content blocks */
 
 .content-centre,
+.content-left,
 .content-right {
   padding: 100px;
 }
