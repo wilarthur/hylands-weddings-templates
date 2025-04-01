@@ -37,6 +37,12 @@ strong {
 }
 
 /* Backgrounds */
+.bg-flowers {
+  background-image: url(/assets/images/bg_swirl.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 .bg-white-flowers {
   background-image: url(/assets/images/white_bg_swirl.jpg);
   background-size: cover;
