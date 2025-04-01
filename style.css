@@ -250,14 +250,19 @@ header .wrapper .hamburger {
   margin-bottom: -50px;
 }
 
-.tile-images .wrapper img:nth-child(odd) {
+.tile-images .wrapper img:nth-child(1) {
   float: right;
-}
-
-.tile-images .wrapper img:first-child {
+  z-index: 1;
   margin-top: 50px;
 }
 
-.tile-images .wrapper img:last-child {
+.tile-images .wrapper img:nth-child(2) {
+  float: left;
+  z-index: 2;
+}
+
+.tile-images .wrapper img:nth-child(3) {
+  float: right;
   margin-bottom: 50px;
+  z-index: 3;
 }
