@@ -38,14 +38,20 @@ strong {
 
 /* Backgrounds */
 .bg-white-flowers {
-  background-image: url(/assets/images/white-bg-swirl.jpg);
+  background-image: url(/assets/images/white_bg_swirl.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-teal-flowers {
+  background-image: url(/assets/images/teal_bg_swirl.jpg);
   background-size: cover;
   background-position: center;
 }
 
 /* Wrapper */
 .wrapper {
-  max-width: 810px;
+  max-width: 970px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -145,7 +151,8 @@ header .wrapper .hamburger {
 
 /* Content blocks */
 
-.content-centre {
+.content-centre,
+.content-right {
   padding: 100px;
 }
 
@@ -170,14 +177,16 @@ header .wrapper .hamburger {
   margin-bottom: 30px;
 }
 
-.content-centre .wrapper .link-wrapper {
+.content-centre .wrapper .link-wrapper,
+.content-right .wrapper .link-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 55px;
 }
 
-.content-centre .wrapper .link-wrapper a.button {
+.content-centre .wrapper .link-wrapper a.button,
+.content-right .wrapper .link-wrapper a.button {
   text-align: center;
   padding: 12px 28px;
   border: 2px solid #735775;
@@ -188,7 +197,43 @@ header .wrapper .hamburger {
   transition: all 0.2s ease-in-out;
 }
 
-.content-centre .wrapper .link-wrapper a.button:hover {
+.content-centre .wrapper .link-wrapper a.button:hover,
+.content-right .wrapper .link-wrapper a.button:hover {
   box-shadow: inset 0 -50px 0 0px #735775;
   color: white;
+}
+
+.content-right .wrapper {
+  display: flex;
+}
+
+.content-right .wrapper img {
+  width: 50%;
+  object-fit: cover;
+  padding: 25px;
+}
+
+.content-right .wrapper .content {
+  width: 50%;
+  padding: 25px;
+}
+
+.content-right .wrapper h2 {
+  font-size: 48px;
+  line-height: 73px;
+  margin-bottom: 48px;
+  color: #735775;
+  font-weight: lighter;
+}
+
+.content-right .wrapper p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  color: #666666;
+  font-weight: lighter;
+}
+
+.content-right .wrapper .link-wrapper {
+  justify-content: left;
 }
