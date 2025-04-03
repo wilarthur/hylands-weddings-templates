@@ -315,3 +315,69 @@ header .wrapper .hamburger {
   object-fit: cover;
   width: 100%;
 }
+
+/* News stories */
+
+.news-stories {
+  background-color: #f4f3f0;
+  padding: 50px;
+}
+
+.news-stories .subtitle {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  font-weight: lighter;
+  color: #666666;
+}
+
+.news-stories h2 {
+  font-size: 40px;
+  line-height: 73px;
+  margin-bottom: 48px;
+  color: #735775;
+  font-weight: lighter;
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.news-story {
+  width: 30%;
+  margin-bottom: 50px;
+}
+
+.news-story a[style^="background-image:"] {
+  display: block;
+  width: 100%;
+  margin-bottom: 48px;
+  padding-bottom: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  box-shadow: 15px 15px #edebe6;
+  transition: ease-in-out 0.6s;
+}
+
+.news-story a[style^="background-image:"]:hover {
+  box-shadow: 25px 25px #edebe6;
+  background-size: 110%;
+}
+
+.news-story .category,
+.news-story .published-date {
+  font-weight: lighter;
+  color: #50535a;
+  margin: 0;
+}
+
+.news-story a h3 {
+  font-size: 28px;
+  margin: 20px 0;
+  color: #735775;
+  font-weight: lighter;
+}
