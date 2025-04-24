@@ -74,11 +74,8 @@ header {
   height: 90px;
   width: 100%;
   background-color: transparent;
+  transition: all 0.4s ease-in-out;
   z-index: 999;
-}
-
-.white {
-  background-color: white;
 }
 
 header .wrapper {
@@ -99,12 +96,28 @@ header .wrapper .hamburger {
   border: none;
 }
 
+header > .wrapper > a {
+  color: white;
+}
+
+.white {
+  background-color: white;
+}
+
+header.white > .wrapper > a {
+  color: #50535a;
+}
+
+header.white > .wrapper > .hamburger .line {
+  background-color: #50535a;
+}
+
 .hamburger:hover {
   cursor: pointer;
 }
 
 .hamburger .line {
-  background-color: #50535a;
+  background-color: white;
   border-radius: 6px;
   display: block;
   height: 4px;
