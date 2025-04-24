@@ -215,7 +215,7 @@ nav.menu .sub-menu {
   list-style: none;
   max-height: 0;
   overflow: hidden;
-  transition: ease-in-out 0.7s;
+  transition: ease 0.7s;
 }
 
 nav.menu .sub-menu.open {
