@@ -1,3 +1,5 @@
+const nav = document.getElementById("header");
+
 function toggleMenu() {
   const element = document.getElementById("menu");
   const hamburger = document.getElementById("hamburger");
@@ -6,7 +8,6 @@ function toggleMenu() {
   nav.classList.toggle("open-menu-color");
 }
 
-const nav = document.getElementById("header");
 window.onscroll = function () {
   if (
     document.body.scrollTop >= 90 ||
