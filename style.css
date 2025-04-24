@@ -112,6 +112,10 @@ header.white > .wrapper > .hamburger .line {
   background-color: #50535a;
 }
 
+header.open-menu-color > .wrapper > a {
+  color: #50535a;
+}
+
 .hamburger:hover {
   cursor: pointer;
 }
