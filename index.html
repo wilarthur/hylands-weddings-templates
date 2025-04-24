@@ -15,8 +15,36 @@
         <div class="wrapper">
             <a href="tel:01245 605500" class="phone"><img src="/assets/images/phone_icon_grey.svg" alt=""></a>
             <a href="/"><img src="/assets/images/hylands_logo_grey.svg" alt=""></a>
-            <button class="hamburger"><span class="line"></span><span class="line"></span></button>
+            <button class="hamburger" id="hamburger" onclick="toggleMenu()"><span class="line"></span><span
+                    class="line"></span></button>
         </div>
+        <nav class="menu" id="menu">
+            <div class="wrapper">
+                <ul>
+                    <li><a href="#">Weddings</a></li>
+                    <li><a href="#">Final Touches</a></li>
+                    <li><a href="#">Prices</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">News & Stories</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-footer">
+                <a href="https://www.instagram.com/hylandsestateweddings/">
+                    Instagram
+                </a>
+                <a href="https://www.facebook.com/HylandsEstateWeddings">
+                    Facebook
+                </a>
+                <a href="https://www.pinterest.co.uk/hylandsestateweddings/">
+                    Pinterest
+                </a>
+                <a href="https://hylandsestate.co.uk/">
+                    Visit hylandsestate.co.uk
+                </a>
+            </div>
+        </nav>
     </header>
     <main>
         <div class="hero">
@@ -249,34 +277,41 @@
         </div>
     </main>
     <footer>
-        <div class="top">
-            <div class="col">
-                <p class="footer-title">Contact us</p>
-                <p>T <a href="#">01245 605500</a></p>
-                <p><a href="#">hylands@chelmsford.gov.uk</a></p>
+        <div class="wrapper">
+            <div class="top">
+                <div class="col">
+                    <p class="footer-title">Contact us</p>
+                    <p>T <a href="#">01245 605500</a></p>
+                    <p><a href="#">hylands@chelmsford.gov.uk</a></p>
+                </div>
+                <div class="col">
+                    <p class="footer-title-2">Join our newsletter and receive offers and advice</p>
+                    <a href="#" class="button">Sign Up</a>
+                </div>
+                <div class="col">
+                    <p class="footer-title">Follow us on</p>
+                    <a href=""><img src="" alt="">Instagram</a>
+                    <a href=""><img src="" alt="">Facebook</a>
+                    <a href=""><img src="" alt="">Pinterest</a>
+                </div>
             </div>
-            <div class="col">
-                <p class="large">Join our newsletter and receive offers and advice</p>
-                <a href="#" class="button">Sign Up</a>
+            <div class="bottom">
+                <a href="#">© Chelmsford City Council.</a>
+                <ul>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li>|</li>
+                    <li><a href="#">Accessibility</a></li>
+                    <li>|</li>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li>|</li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li>|</li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
             </div>
-            <div class="col">
-                <p class="footer-title">Follow us on</p>
-                <a href=""><img src="" alt="">Instagram</a>
-                <a href=""><img src="" alt="">Facebook</a>
-                <a href=""><img src="" alt="">Pinterest</a>
-            </div>
-        </div>
-        <div class="bottom">
-            <a href="#">© Chelmsford City Council.</a>
-            <ul>
-                <li><a href="#">Disclaimer</a></li>
-                <li><a href="#">Accessibility</a></li>
-                <li><a href="#">Cookie Policy</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
         </div>
     </footer>
 </body>
+<script src="/main.js"></script>
 
 </html>
