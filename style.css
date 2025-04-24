@@ -161,6 +161,7 @@ nav.menu {
   top: 0;
   padding-top: 90px;
   background-image: url("/assets/images/menu-bg.jpg");
+  background-size: cover;
   z-index: 1;
   transition: all 0.2s ease-in-out;
 }
@@ -180,6 +181,7 @@ nav.menu > .wrapper > ul {
   list-style: none;
   width: 50%;
   margin-top: 15px;
+  padding-right: 15px;
   max-height: 95%;
   overflow: auto;
   overflow-x: hidden;
@@ -264,6 +266,10 @@ nav.menu ul li a .fa-chevron-down {
   padding: 0 20px;
   border-right: 1px solid black;
   color: #735775;
+}
+
+.nav-footer a:first-child {
+  padding-left: 0;
 }
 
 .nav-footer a:hover {
