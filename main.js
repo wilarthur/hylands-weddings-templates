@@ -6,6 +6,12 @@ function toggleMenu() {
   element.classList.toggle("open");
   hamburger.classList.toggle("is-active");
   nav.classList.toggle("open-menu-color");
+
+  if (element.classList.contains("open")) {
+    document.body.style.overflowY = "hidden";
+  } else {
+    document.body.style.overflowY = "visible";
+  }
 }
 
 window.onscroll = function () {
