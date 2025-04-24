@@ -31,3 +31,25 @@ $(".has-sub-menu").click(function () {
   $(this).siblings(".sub-menu").toggleClass("open");
   $(this).children(".fa-chevron-down").toggleClass("flip");
 });
+
+/* Fade in animate on scroll */
+
+const elementsToLoadIn = document.querySelectorAll(".fadein");
+
+const observerOptions = {
+  root: null,
+  rootMargin: "0px",
+  threshold: 0.3,
+};
+
+function observerCallback(entries) {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("faded-in");
+    }
+  });
+}
+
+const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+elementsToLoadIn.forEach((el) => observer.observe(el));
