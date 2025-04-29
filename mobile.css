@@ -75,6 +75,7 @@
   .content-left .wrapper img,
   .content-right .wrapper img {
     width: 100%;
+    padding:0;
   }
 
   .tile-images.rlr .wrapper img,
