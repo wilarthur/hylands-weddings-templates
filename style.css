@@ -1,6 +1,7 @@
 /* Remove padding */
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -70,7 +71,7 @@ strong {
 
 /* Wrapper */
 .wrapper {
-  max-width: 970px;
+  max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -456,7 +457,8 @@ nav.menu ul li a .fa-chevron-down {
 
 .tile-images.rlr .wrapper img {
   justify-content: left;
-  max-width: 60%;
+  max-width: 55%;
+  width: 100%;
   margin-bottom: -50px;
 }
 
@@ -479,7 +481,8 @@ nav.menu ul li a .fa-chevron-down {
 
 .tile-images.lrl .wrapper img {
   justify-content: right;
-  max-width: 60%;
+  max-width: 55%;
+  width: 100%;
   margin-bottom: -50px;
 }
 
