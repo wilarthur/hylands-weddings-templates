@@ -48,6 +48,7 @@
   .content-left .wrapper,
   .content-right .wrapper {
     flex-wrap: wrap;
+    flex-direction: row;
   }
 
   .content-left .wrapper .content,
