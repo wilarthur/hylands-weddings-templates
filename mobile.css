@@ -48,7 +48,6 @@
   .content-left .wrapper,
   .content-right .wrapper {
     flex-wrap: wrap;
-    flex-direction: column;
   }
 
   .content-left .wrapper .content,
