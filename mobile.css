@@ -75,7 +75,7 @@
   .content-left .wrapper img,
   .content-right .wrapper img {
     width: 100%;
-    padding:0;
+    padding: 0;
   }
 
   .tile-images.rlr .wrapper img,
@@ -101,6 +101,14 @@
 
   .news-story {
     width: 100%;
+  }
+
+  .link-with-image-container.two > .wrapper > .link-with-image {
+    width: 100%;
+    height: 1000px;
+    max-height: 500px;
+    display: flex;
+    margin-bottom: 1rem;
   }
 
   footer {
