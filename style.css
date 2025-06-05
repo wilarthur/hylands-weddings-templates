@@ -652,7 +652,14 @@ nav.menu ul li a .fa-chevron-down {
 
 .link-with-image {
   color: white;
-  background-size: cover;
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: ease-in-out 0.6s;
+}
+
+.link-with-image:hover {
+  background-size: auto 110%;
 }
 
 .link-with-image-container.one
