@@ -639,7 +639,7 @@ nav.menu ul li a .fa-chevron-down {
   height: 1000px;
   max-height: 500px;
   display: flex;
-  margin: 1rem auto;
+  margin: 1rem 0;
 }
 
 .link-with-image-container.two > .wrapper > .link-with-image {
@@ -647,7 +647,7 @@ nav.menu ul li a .fa-chevron-down {
   height: 1000px;
   max-height: 300px;
   display: flex;
-  margin: 1rem auto;
+  margin: 1rem 0;
 }
 
 .link-with-image {
@@ -671,6 +671,33 @@ nav.menu ul li a .fa-chevron-down {
   height: 100%;
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
+}
+
+.link-with-image {
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.link-with-image-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.link-with-image .subtitle {
+  font-size: 1.3em;
+}
+
+.link-with-image h3 {
+  font-size: 2em;
+  margin-top: 0;
+  width: 80%;
+}
+
+.link-with-image p {
+  margin: 0;
+  width: 80%;
 }
 
 /* Footer */
