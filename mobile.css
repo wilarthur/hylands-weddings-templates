@@ -78,11 +78,16 @@
     padding: 0;
   }
 
-  .tile-images.rlr .wrapper img,
-  .tile-images.lrl .wrapper img {
+  .tile-images.rlr .wrapper .item,
+  .tile-images.lrl .wrapper .item {
+    flex-wrap: wrap;
+    flex-direction: row !important;
+  }
+
+  .tile-images.rlr .wrapper .item img,
+  .tile-images.lrl .wrapper .item img {
     max-width: 100%;
     margin-bottom: 15px;
-    float: unset !important;
   }
 
   .full-width-image-text-bg {

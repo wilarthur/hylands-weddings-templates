@@ -451,55 +451,69 @@ nav.menu ul li a .fa-chevron-down {
 
 /* Tile images */
 
-.tile-images {
-  display: flex;
-}
-
-.tile-images.rlr .wrapper img {
+.tile-images.rlr .wrapper .item img {
   justify-content: left;
   max-width: 55%;
   width: 100%;
   margin-bottom: -50px;
 }
 
-.tile-images.rlr .wrapper img:nth-child(1) {
-  float: right;
+.tile-images.rlr .wrapper .item:nth-child(1) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   z-index: 1;
   margin-top: 50px;
 }
 
-.tile-images.rlr .wrapper img:nth-child(2) {
-  float: left;
+.tile-images.rlr .wrapper .item:nth-child(2) {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
   z-index: 2;
 }
 
-.tile-images.rlr .wrapper img:nth-child(3) {
-  float: right;
-  margin-bottom: 50px;
+.tile-images.rlr .wrapper .item:nth-child(3) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
   z-index: 3;
 }
 
-.tile-images.lrl .wrapper img {
+.tile-images.lrl .wrapper .item img {
   justify-content: right;
   max-width: 55%;
   width: 100%;
   margin-bottom: -50px;
 }
 
-.tile-images.lrl .wrapper img:nth-child(1) {
-  float: left;
+.tile-images.lrl .wrapper .item:nth-child(1) {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
   z-index: 1;
   margin-top: 50px;
 }
 
-.tile-images.lrl .wrapper img:nth-child(2) {
-  float: right;
+.tile-images.lrl .wrapper .item:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   z-index: 2;
 }
 
-.tile-images.lrl .wrapper img:nth-child(3) {
-  float: left;
-  margin-bottom: 50px;
+.tile-images.lrl .wrapper .item:nth-child(3) {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
   z-index: 3;
 }
 
