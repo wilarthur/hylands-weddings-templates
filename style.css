@@ -592,6 +592,29 @@ nav.menu ul li a .fa-chevron-down {
   font-weight: lighter;
 }
 
+.news-stories .filters {
+  margin-bottom: 50px;
+}
+
+.news-stories .filters input[type="search"] {
+  padding: 16px 36px;
+  border: 2px solid #735775;
+  background: transparent;
+  font-family: "Perpetua";
+  font-size: 1.2em;
+  color: #666666;
+  margin: 1rem 1rem 1rem 0;
+}
+
+.news-stories .filters select {
+  padding: 16px 24px;
+  border: 2px solid #735775;
+  background: transparent;
+  font-family: "Perpetua";
+  font-size: 1.2em;
+  color: #666666;
+}
+
 /* Full width image with text cta */
 .full-width-image-text {
   width: 100%;
