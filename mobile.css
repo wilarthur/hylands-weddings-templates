@@ -116,6 +116,18 @@
     margin-bottom: 1rem;
   }
 
+  .gallery-images {
+    flex-wrap: wrap;
+  }
+
+  .gallery-images .column {
+    width: 100%;
+  }
+
+  .gallery-images .column img {
+    padding: 1rem 0;
+  }
+
   footer {
     padding: 0;
   }
