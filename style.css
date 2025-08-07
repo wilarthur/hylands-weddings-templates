@@ -456,6 +456,7 @@ nav.menu ul li a .fa-chevron-down {
   max-width: 55%;
   width: 100%;
   margin-bottom: -50px;
+  object-fit: contain;
 }
 
 .tile-images.rlr .wrapper .item:nth-child(1) {
@@ -489,6 +490,7 @@ nav.menu ul li a .fa-chevron-down {
   max-width: 55%;
   width: 100%;
   margin-bottom: -50px;
+  object-fit: contain;
 }
 
 .tile-images.lrl .wrapper .item:nth-child(1) {

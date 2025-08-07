@@ -2,6 +2,11 @@
   .wrapper {
     max-width: 810px;
   }
+
+  .quote p {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -114,6 +119,10 @@
     max-height: 500px;
     display: flex;
     margin-bottom: 1rem;
+  }
+
+  .quote {
+    max-width: 100%;
   }
 
   .gallery-images {
