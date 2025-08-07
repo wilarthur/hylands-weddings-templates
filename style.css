@@ -625,6 +625,29 @@ select#gallery-filter {
   appearance: none;
 }
 
+.pagination {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.pagination ul {
+  display: flex;
+  list-style: none;
+}
+
+.pagination ul a {
+  width: 36px;
+  height: 36px;
+  font-size: 18px;
+  color: #666666;
+  text-decoration: none;
+}
+
+.pagination ul a:hover {
+  color: #735775;
+}
+
 /* Full width image with text cta */
 .full-width-image-text {
   width: 100%;
