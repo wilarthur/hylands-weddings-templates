@@ -850,6 +850,23 @@ select#gallery-filter {
   padding-top: 0;
 }
 
+/* Table */
+
+table {
+  margin: 50px 0;
+  width: 100%;
+  text-align: left;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  color: #666666;
+  font-weight: lighter;
+}
+
+th {
+  font-weight: bold;
+}
+
 /* Gallery */
 
 .gallery-images {
