@@ -7,6 +7,10 @@
     font-size: 1.6rem;
     line-height: 1.6rem;
   }
+
+  .gallery-images {
+    column-count: 2;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -126,15 +130,7 @@
   }
 
   .gallery-images {
-    flex-wrap: wrap;
-  }
-
-  .gallery-images .column {
-    width: 100%;
-  }
-
-  .gallery-images .column img {
-    padding: 1rem 0;
+    column-count: 1;
   }
 
   footer {
