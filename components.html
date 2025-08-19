@@ -606,26 +606,27 @@
         <section class="gallery bg-flowers">
             <div class="wrapper">
                 <h2>Thank you to our couples for sharing their special days!</h2>
-                <select name="gallery-filter" id="gallery-filter">
-                    <option value="" disabled selected>Select a season</option>
-                    <option value="">All seasons</option>
-                    <option value="">Spring</option>
-                    <option value="">Summer</option>
-                    <option value="">Autumn</option>
-                    <option value="">Winter</option>
+                <select name="gallery-filter" id="gallery-filter" onchange="galleryFilterCheck()">
+                    <option value="all" disabled selected>Select a season</option>
+                    <option value="all">All seasons</option>
+                    <option value="spring">Spring</option>
+                    <option value="summer">Summer</option>
+                    <option value="autumn">Autumn</option>
+                    <option value="winter">Winter</option>
                 </select>
+
                 <div class="gallery-images">
                     <div class="column">
-                        <a href="/assets/images/Drawing-Room-Medium-image.jpg">
+                        <a href="/assets/images/Drawing-Room-Medium-image.jpg" class="spring">
                             <img src="/assets/images/Drawing-Room-Medium-image.jpg" alt="">
                         </a>
-                        <a href="/assets/images/1-DSC01815-1.jpg">
+                        <a href="/assets/images/1-DSC01815-1.jpg" class="summer">
                             <img src="/assets/images/1-DSC01815-1.jpg" alt="">
                         </a>
-                        <a href="/assets/images/AN_Wedding_1298-1.jpg">
+                        <a href="/assets/images/AN_Wedding_1298-1.jpg" class="autumn">
                             <img src="/assets/images/AN_Wedding_1298-1.jpg" alt="">
                         </a>
-                        <a href="/assets/images/Asian-Wedding-Showcase-Thumbnail.jpg">
+                        <a href="/assets/images/Asian-Wedding-Showcase-Thumbnail.jpg" class="winter">
                             <img src="/assets/images/Asian-Wedding-Showcase-Thumbnail.jpg" alt="">
                         </a>
                         <a href="/assets/images/Autumn-Wedding-Showcase-2023-featured.jpg">

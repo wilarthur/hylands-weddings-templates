@@ -76,6 +76,90 @@ $(document).ready(function () {
   });
 });
 
+/* Gallery filter */
+const galleryFilter = document.getElementById("gallery-filter");
+
+function galleryFilterCheck() {
+  let galleryFilterValue =
+    galleryFilter.options[galleryFilter.selectedIndex].value;
+  console.log(galleryFilterValue);
+
+  if (galleryFilterValue === "all") {
+    document
+      .querySelectorAll(".spring")
+      .forEach((a) => (a.style.display = "initial"));
+    document
+      .querySelectorAll(".summer")
+      .forEach((a) => (a.style.display = "initial"));
+    document
+      .querySelectorAll(".autumn")
+      .forEach((a) => (a.style.display = "initial"));
+    document
+      .querySelectorAll(".winter")
+      .forEach((a) => (a.style.display = "initial"));
+  }
+
+  if (galleryFilterValue === "spring") {
+    document
+      .querySelectorAll(".spring")
+      .forEach((a) => (a.style.display = "initial"));
+    document
+      .querySelectorAll(".summer")
+      .forEach((a) => (a.style.display = "none"));
+    document
+      .querySelectorAll(".autumn")
+      .forEach((a) => (a.style.display = "none"));
+    document
+      .querySelectorAll(".winter")
+      .forEach((a) => (a.style.display = "none"));
+  }
+
+  if (galleryFilterValue === "summer") {
+    document
+      .querySelectorAll(".spring")
+      .forEach((a) => (a.style.display = "none"));
+    document
+      .querySelectorAll(".summer")
+      .forEach((a) => (a.style.display = "initial"));
+    document
+      .querySelectorAll(".autumn")
+      .forEach((a) => (a.style.display = "none"));
+    document
+      .querySelectorAll(".winter")
+      .forEach((a) => (a.style.display = "none"));
+  }
+
+  if (galleryFilterValue === "autumn") {
+    document
+      .querySelectorAll(".spring")
+      .forEach((a) => (a.style.display = "none"));
+    document
+      .querySelectorAll(".summer")
+      .forEach((a) => (a.style.display = "none"));
+    document
+      .querySelectorAll(".autumn")
+      .forEach((a) => (a.style.display = "initial"));
+    document
+      .querySelectorAll(".winter")
+      .forEach((a) => (a.style.display = "none"));
+  }
+
+  if (galleryFilterValue === "winter") {
+    document
+      .querySelectorAll(".spring")
+      .forEach((a) => (a.style.display = "none"));
+    document
+      .querySelectorAll(".summer")
+      .forEach((a) => (a.style.display = "none"));
+    document
+      .querySelectorAll(".autumn")
+      .forEach((a) => (a.style.display = "none"));
+    document
+      .querySelectorAll(".winter")
+      .forEach((a) => (a.style.display = "initial"));
+  }
+}
+
 /* Accordions */
 
 var acc = document.getElementsByClassName("accordion");
