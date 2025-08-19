@@ -394,6 +394,14 @@ nav.menu ul li a .fa-chevron-down {
   margin-top: 55px;
 }
 
+.link-wrapper.align-left {
+  justify-content: start !important;
+}
+
+.link-wrapper.align-right {
+  justify-content: end !important;
+}
+
 .content-centre .wrapper .link-wrapper a.button,
 .content-left .wrapper .link-wrapper a.button,
 .content-right .wrapper .link-wrapper a.button {
