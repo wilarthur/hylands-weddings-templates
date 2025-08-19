@@ -87,22 +87,22 @@ function galleryFilterCheck() {
   if (galleryFilterValue === "all") {
     document
       .querySelectorAll(".spring")
-      .forEach((a) => (a.style.display = "initial"));
+      .forEach((a) => (a.style.display = "grid"));
     document
       .querySelectorAll(".summer")
-      .forEach((a) => (a.style.display = "initial"));
+      .forEach((a) => (a.style.display = "grid"));
     document
       .querySelectorAll(".autumn")
-      .forEach((a) => (a.style.display = "initial"));
+      .forEach((a) => (a.style.display = "grid"));
     document
       .querySelectorAll(".winter")
-      .forEach((a) => (a.style.display = "initial"));
+      .forEach((a) => (a.style.display = "grid"));
   }
 
   if (galleryFilterValue === "spring") {
     document
       .querySelectorAll(".spring")
-      .forEach((a) => (a.style.display = "initial"));
+      .forEach((a) => (a.style.display = "grid"));
     document
       .querySelectorAll(".summer")
       .forEach((a) => (a.style.display = "none"));
@@ -120,7 +120,7 @@ function galleryFilterCheck() {
       .forEach((a) => (a.style.display = "none"));
     document
       .querySelectorAll(".summer")
-      .forEach((a) => (a.style.display = "initial"));
+      .forEach((a) => (a.style.display = "grid"));
     document
       .querySelectorAll(".autumn")
       .forEach((a) => (a.style.display = "none"));
@@ -138,7 +138,7 @@ function galleryFilterCheck() {
       .forEach((a) => (a.style.display = "none"));
     document
       .querySelectorAll(".autumn")
-      .forEach((a) => (a.style.display = "initial"));
+      .forEach((a) => (a.style.display = "grid"));
     document
       .querySelectorAll(".winter")
       .forEach((a) => (a.style.display = "none"));
@@ -156,7 +156,7 @@ function galleryFilterCheck() {
       .forEach((a) => (a.style.display = "none"));
     document
       .querySelectorAll(".winter")
-      .forEach((a) => (a.style.display = "initial"));
+      .forEach((a) => (a.style.display = "grid"));
   }
 }
 
