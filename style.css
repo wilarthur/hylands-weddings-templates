@@ -70,7 +70,8 @@ strong {
 }
 
 /* Wrapper */
-.wrapper, .umbraco-forms-form {
+.wrapper,
+.umbraco-forms-form {
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
@@ -1004,4 +1005,52 @@ footer .button:hover {
   font-weight: lighter;
   color: #50535a;
   margin: 26px 0;
+}
+
+/* Forms */
+
+/* Labels */
+label.umbraco-forms-label,
+.umbraco-forms-form legend,
+.umbraco-forms-form .checkboxlist label {
+  font-family: "Inter", sans-serif;
+  font-weight: lighter !important;
+  font-size: 1em !important;
+  padding: 0px !important;
+  float: unset !important;
+  clear: unset !important;
+}
+
+/* Spacing between questions */
+.umbraco-forms-field {
+  margin-bottom: 20px !important;
+}
+
+/* Set width of text box questions */
+.umbraco-forms-form .umbraco-forms-field-wrapper > input.text,
+.umbraco-forms-form .umbraco-forms-field-wrapper > textarea,
+.umbraco-forms-form .umbraco-forms-field-wrapper > input.datepickerfield {
+  max-width: 100% !important;
+  width: 100% !important;
+  border: 1px solid #50535a !important;
+  height: 50px !important;
+  padding: 0px !important;
+  margin: 0.5em 0 !important;
+}
+
+/* Wrapper for checkbox list */
+.umbraco-forms-form .checkboxlist > div {
+  display: flex !important;
+  align-items: end !important;
+  height: 24px !important;
+  margin-bottom: 10px;
+}
+
+/* Checkbox list box and label */
+.umbraco-forms-form .checkboxlist > div > input {
+  height: 24px !important;
+  width: 24px !important;
+}
+.umbraco-forms-form .checkboxlist > div > label {
+  height: 24px !important;
 }
