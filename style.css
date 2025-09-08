@@ -1012,7 +1012,8 @@ footer .button:hover {
 /* Labels */
 label.umbraco-forms-label,
 .umbraco-forms-form legend,
-.umbraco-forms-form .checkboxlist label {
+.umbraco-forms-form .checkboxlist label,
+.umbraco-forms-form .radiobuttonlist label {
   font-family: "Inter", sans-serif;
   font-weight: lighter !important;
   font-size: 1em !important;
@@ -1038,19 +1039,27 @@ label.umbraco-forms-label,
   margin: 0.5em 0 !important;
 }
 
-/* Wrapper for checkbox list */
-.umbraco-forms-form .checkboxlist > div {
+/* Wrapper for checkbox/radio button list */
+.umbraco-forms-form .checkboxlist > div,
+.umbraco-forms-form .radiobuttonlist > div {
   display: flex !important;
   align-items: end !important;
   height: 24px !important;
   margin-bottom: 10px;
 }
 
-/* Checkbox list box and label */
-.umbraco-forms-form .checkboxlist > div > input {
+/* Checkbox/radio button list box and label */
+.umbraco-forms-form .checkboxlist > div > input,
+.umbraco-forms-form div .checkbox input,
+.umbraco-forms-form .radiobuttonlist > div > input {
   height: 24px !important;
   width: 24px !important;
 }
-.umbraco-forms-form .checkboxlist > div > label {
+.umbraco-forms-form .checkboxlist > div > label,
+.umbraco-forms-form .radiobuttonlist > div > label {
   height: 24px !important;
 }
+
+/*
+.umbraco-forms-form .radiobuttonlist input {
+} */
