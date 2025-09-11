@@ -1039,7 +1039,17 @@ label.umbraco-forms-label,
   margin: 0.5em 0 !important;
 }
 
+.umbraco-forms-form .umbraco-forms-field-wrapper > textarea {
+  height: 150px !important;
+}
+
 /* Wrapper for checkbox/radio button list */
+
+.umbraco-forms-form .checkboxlist,
+.umbraco-forms-form .radiobuttonlist,
+.umbraco-forms-form span.checkbox {
+  padding: 0px !important;
+}
 .umbraco-forms-form .checkboxlist > div,
 .umbraco-forms-form .radiobuttonlist > div {
   display: flex !important;
@@ -1060,6 +1070,17 @@ label.umbraco-forms-label,
   height: 24px !important;
 }
 
-/*
-.umbraco-forms-form .radiobuttonlist input {
-} */
+/* Title desc/RTE fields */
+.titleanddescription .umbraco-forms-field-wrapper h2,
+.richtext .umbraco-forms-field-wrapper h2 {
+  font-family: "Perpetua";
+  font-size: 48px;
+  color: #735775;
+  font-weight: lighter;
+}
+
+.titleanddescription .umbraco-forms-field-wrapper p,
+.richtext .umbraco-forms-field-wrapper p {
+  font-family: "Inter", sans-serif;
+  font-weight: lighter;
+}
