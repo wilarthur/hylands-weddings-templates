@@ -1051,7 +1051,8 @@ label.umbraco-forms-label,
   padding: 0px !important;
 }
 .umbraco-forms-form .checkboxlist > div,
-.umbraco-forms-form .radiobuttonlist > div {
+.umbraco-forms-form .radiobuttonlist > div,
+.umbraco-forms-form .dataconsent > div {
   display: flex !important;
   align-items: end !important;
   height: 24px !important;
@@ -1061,12 +1062,15 @@ label.umbraco-forms-label,
 /* Checkbox/radio button list box and label */
 .umbraco-forms-form .checkboxlist > div > input,
 .umbraco-forms-form div .checkbox input,
-.umbraco-forms-form .radiobuttonlist > div > input {
+.umbraco-forms-form .radiobuttonlist > div > input,
+.umbraco-forms-form .dataconsent > div > input {
   height: 24px !important;
   width: 24px !important;
 }
 .umbraco-forms-form .checkboxlist > div > label,
-.umbraco-forms-form .radiobuttonlist > div > label {
+.umbraco-forms-form .radiobuttonlist > div > label,
+.umbraco-forms-form .dataconsent > div > label,
+.umbraco-forms-form .dataconsent > div > span {
   height: 24px !important;
 }
 
@@ -1081,6 +1085,13 @@ label.umbraco-forms-label,
 
 .titleanddescription .umbraco-forms-field-wrapper p,
 .richtext .umbraco-forms-field-wrapper p {
+  font-family: "Inter", sans-serif;
+  font-weight: lighter;
+}
+
+.fileupload .umbraco-forms-field-wrapper,
+.dataconsent .umbraco-forms-field-wrapper {
+  margin-top: 1em;
   font-family: "Inter", sans-serif;
   font-weight: lighter;
 }
