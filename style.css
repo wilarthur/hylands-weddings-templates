@@ -1009,6 +1009,11 @@ footer .button:hover {
 
 /* Forms */
 
+.umbraco-forms-form fieldset,
+.umbraco-forms-form .umbraco-forms-navigation {
+  padding: 1em !important;
+}
+
 /* Labels */
 label.umbraco-forms-label,
 .umbraco-forms-form legend,
