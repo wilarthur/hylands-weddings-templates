@@ -1047,6 +1047,16 @@ label.umbraco-forms-label,
   height: 150px !important;
 }
 
+/* Set width of select box questions */
+
+.umbraco-forms-form .umbraco-forms-field-wrapper > select {
+  font-family: "Inter", sans-serif;
+  height: 50px !important;
+  padding: 0 20px !important;
+  margin: 0.5em 0 !important;
+  border: 1px solid #50535a !important;
+}
+
 /* Wrapper for checkbox/radio button list */
 
 .multiplechoice,
