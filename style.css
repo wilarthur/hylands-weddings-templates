@@ -1059,7 +1059,7 @@ label.umbraco-forms-label,
 .umbraco-forms-form .radiobuttonlist > div,
 .umbraco-forms-form .dataconsent > div {
   display: flex !important;
-  align-items: end !important;
+  align-items: center !important;
   height: 24px !important;
   margin-bottom: 10px;
 }
@@ -1071,12 +1071,15 @@ label.umbraco-forms-label,
 .umbraco-forms-form .dataconsent > div > input {
   height: 24px !important;
   width: 24px !important;
+  margin: 0;
+  margin-right: 1em;
 }
 .umbraco-forms-form .checkboxlist > div > label,
 .umbraco-forms-form .radiobuttonlist > div > label,
 .umbraco-forms-form .dataconsent > div > label,
 .umbraco-forms-form .dataconsent > div > span {
   height: 24px !important;
+  align-content: center;
 }
 
 /* Title desc/RTE fields */
