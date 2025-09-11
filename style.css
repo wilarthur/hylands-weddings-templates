@@ -1050,6 +1050,11 @@ label.umbraco-forms-label,
 
 /* Wrapper for checkbox/radio button list */
 
+.multiplechoice,
+.singlechoice {
+  margin-left: 0 !important;
+}
+
 .umbraco-forms-form .checkboxlist,
 .umbraco-forms-form .radiobuttonlist,
 .umbraco-forms-form span.checkbox {
