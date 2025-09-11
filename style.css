@@ -1009,7 +1009,7 @@ footer .button:hover {
 
 /* Forms */
 
-.umbraco-forms-form fieldset,
+.umbraco-forms-form > fieldset,
 .umbraco-forms-form .umbraco-forms-navigation {
   padding: 1em !important;
 }
@@ -1098,7 +1098,8 @@ label.umbraco-forms-label,
 }
 
 .fileupload .umbraco-forms-field-wrapper,
-.dataconsent .umbraco-forms-field-wrapper {
+.dataconsent .umbraco-forms-field-wrapper,
+.mailinglist .umbraco-forms-field-wrapper {
   margin-top: 1em;
   font-family: "Inter", sans-serif;
   font-weight: lighter;
