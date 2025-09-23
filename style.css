@@ -891,8 +891,35 @@ select#gallery-filter {
   margin-bottom: 0;
 }
 
+.accordion-panel h2,
+.accordion-panel h3,
+.accordion-panel h4,
+.accordion-panel h5,
+.accordion-panel h6 {
+  color: #735775;
+}
+
+.accordion-panel h2 {
+  font-size: 2rem;
+}
+
+.accordion-panel h3 {
+  font-size: 1.6rem;
+}
+
+.accordion-panel h4 {
+  font-size: 1.4rem;
+}
+
 .accordion-panel ul {
   padding-top: 0;
+  margin-left: 1.5rem;
+}
+
+.accordion-panel ul li {
+  font-family: "Inter", sans-serif !important;
+  font-weight: lighter;
+  color: #666666;
 }
 
 /* Table */
