@@ -946,6 +946,14 @@ th {
 
 /* Gallery */
 
+.gallery h2 {
+  font-size: 40px;
+  line-height: 73px;
+  margin-bottom: 48px;
+  color: #735775;
+  font-weight: lighter;
+}
+
 .gallery-images {
   column-count: 3;
   column-gap: 25px;
@@ -962,6 +970,15 @@ th {
 
 .gallery-images a img {
   width: 100%;
+}
+
+#no-items-message {
+  font-family: "Inter", sans-serif;
+  font-weight: lighter;
+  color: #666666;
+  text-align: center;
+  font-size: 1.6em;
+  margin-bottom: 5rem;
 }
 
 /* Footer */
