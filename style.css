@@ -569,8 +569,13 @@ nav.menu ul li a .fa-chevron-down {
   font-weight: lighter;
 }
 
+.news-stories .flex-wrapper {
+  justify-content: start;
+}
+
 .news-story {
   width: 30%;
+  margin: 0 1.5%;
   margin-bottom: 50px;
 }
 
