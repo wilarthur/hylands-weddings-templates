@@ -833,6 +833,10 @@ select#gallery-filter {
   color: #735775;
 }
 
+.accordion-container:last-child {
+  border-bottom: 1px solid black;
+}
+
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   background-color: transparent;
@@ -874,7 +878,6 @@ select#gallery-filter {
 .accordion-panel {
   padding: 0 18px;
   max-height: 0;
-  border-bottom: 1px solid black;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
