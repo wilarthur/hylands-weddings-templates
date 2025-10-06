@@ -1021,6 +1021,11 @@ footer a:hover {
   color: #735775;
 }
 
+footer .fa-brands {
+  font-size: 32px;
+  margin-right: 0.5em;
+}
+
 footer .col {
   width: 28%;
 }
