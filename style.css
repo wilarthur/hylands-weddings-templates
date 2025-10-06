@@ -359,6 +359,10 @@ nav.menu ul li a .fa-chevron-down {
 
 /* Content blocks */
 
+.intro {
+  max-width: 768px;
+}
+
 .content-centre,
 .content-left,
 .content-right {
