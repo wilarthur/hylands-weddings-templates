@@ -363,11 +363,11 @@ nav.menu ul li a .fa-chevron-down {
   max-width: 768px;
 }
 
-/* .content-centre,
+.content-centre,
 .content-left,
 .content-right {
-  padding: 100px;
-} */
+  padding: 100px 0px;
+}
 
 .content-centre .wrapper h2 {
   font-size: 64px;
