@@ -377,6 +377,14 @@ nav.menu ul li a .fa-chevron-down {
   font-weight: lighter;
 }
 
+.content-centre .wrapper h3 {
+  font-size: 48px;
+  line-height: 52px;
+  margin-bottom: 32px;
+  color: #735775;
+  font-weight: lighter;
+}
+
 .content-centre .wrapper p {
   font-size: 20px;
   line-height: 30px;
@@ -450,6 +458,15 @@ nav.menu ul li a .fa-chevron-down {
   font-size: 48px;
   line-height: 73px;
   margin-bottom: 48px;
+  color: #735775;
+  font-weight: lighter;
+}
+
+.content-left .wrapper h3,
+.content-right .wrapper h3 {
+  font-size: 36px;
+  line-height: 52px;
+  margin-bottom: 36px;
   color: #735775;
   font-weight: lighter;
 }
@@ -569,6 +586,14 @@ nav.menu ul li a .fa-chevron-down {
   font-size: 40px;
   line-height: 73px;
   margin-bottom: 48px;
+  color: #735775;
+  font-weight: lighter;
+}
+
+.news-stories h3 {
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 32px;
   color: #735775;
   font-weight: lighter;
 }
