@@ -89,28 +89,6 @@ strong {
   justify-content: space-between;
 }
 
-/* Margin bottom */
-
-.mb-default {
-  margin-bottom: 1em;
-}
-
-.mb-sm {
-  margin-bottom: 2em;
-}
-
-.mb-md {
-  margin-bottom: 3em;
-}
-
-.mb-lg {
-  margin-bottom: 5em;
-}
-
-.mb-xl {
-  margin-bottom: 10em;
-}
-
 /* Header */
 header {
   position: fixed;
