@@ -29,8 +29,13 @@ h6 {
   font-weight: normal;
 }
 
-body {
+body,
+p,
+ul,
+ol,
+li {
   font-family: "Inter", sans-serif;
+  font-weight: lighter;
 }
 
 strong {
@@ -385,7 +390,9 @@ nav.menu ul li a .fa-chevron-down {
   font-weight: lighter;
 }
 
-.content-centre .wrapper p {
+.content-centre .wrapper p,
+.content-centre .wrapper ul,
+.content-centre .wrapper ol {
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 20px;
@@ -472,7 +479,11 @@ nav.menu ul li a .fa-chevron-down {
 }
 
 .content-left .wrapper p,
-.content-right .wrapper p {
+.content-left .wrapper ul,
+.content-left .wrapper ol,
+.content-right .wrapper p,
+.content-right .wrapper ul,
+.content-right .wrapper ol {
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 20px;
