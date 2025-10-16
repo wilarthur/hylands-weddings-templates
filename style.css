@@ -411,6 +411,30 @@ nav.menu ul li a .fa-chevron-down {
   font-weight: lighter;
 }
 
+.content-centre .wrapper h4 {
+  font-size: 40px;
+  line-height: 44px;
+  margin-bottom: 28px;
+  color: #735775;
+  font-weight: lighter;
+}
+
+.content-centre .wrapper h5 {
+  font-size: 32px;
+  line-height: 36px;
+  margin-bottom: 24px;
+  color: #735775;
+  font-weight: lighter;
+}
+
+.content-centre .wrapper h6 {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 20px;
+  color: #735775;
+  font-weight: lighter;
+}
+
 .content-centre .wrapper p,
 .content-centre .wrapper ul,
 .content-centre .wrapper ol {
@@ -495,6 +519,33 @@ nav.menu ul li a .fa-chevron-down {
   font-size: 36px;
   line-height: 52px;
   margin-bottom: 36px;
+  color: #735775;
+  font-weight: lighter;
+}
+
+.content-left .wrapper h4,
+.content-right .wrapper h4 {
+  font-size: 32px;
+  line-height: 44px;
+  margin-bottom: 32px;
+  color: #735775;
+  font-weight: lighter;
+}
+
+.content-left .wrapper h5,
+.content-right .wrapper h5 {
+  font-size: 28px;
+  line-height: 40px;
+  margin-bottom: 28px;
+  color: #735775;
+  font-weight: lighter;
+}
+
+.content-left .wrapper h6,
+.content-right .wrapper h6 {
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 24px;
   color: #735775;
   font-weight: lighter;
 }
