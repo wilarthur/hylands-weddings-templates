@@ -369,7 +369,7 @@ nav.menu ul li a .fa-chevron-down {
 
 .hero-text {
   text-align: center;
-  font-size: 20px;
+  font-size: 28px;
   letter-spacing: 3px;
   font-weight: 400;
   z-index: 3;
@@ -377,7 +377,7 @@ nav.menu ul li a .fa-chevron-down {
 
 .hero-text h1 {
   display: inline;
-  font-size: 40px;
+  font-size: 60px;
   letter-spacing: 4px;
   text-transform: none;
   font-weight: lighter;
