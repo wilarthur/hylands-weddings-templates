@@ -59,6 +59,10 @@
     flex-wrap: wrap;
   }
 
+  .content-left .wrapper {
+    flex-direction: column-reverse;
+  }
+
   .content-left .wrapper .content,
   .content-right .wrapper .content {
     width: 100%;
