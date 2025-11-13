@@ -25,7 +25,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Perpetua";
+  font-family: "Perpetua", serif;
   font-weight: normal;
 }
 
@@ -237,7 +237,7 @@ nav.menu > .wrapper > ul {
 nav.menu ul li {
   padding: 30px 0;
   font-size: 34px;
-  font-family: "Perpetua";
+  font-family: "Perpetua", serif;
   font-weight: lighter;
   border-top: 1px solid #50535a;
 }
@@ -475,7 +475,7 @@ nav.menu ul li a .fa-chevron-down {
   border: 2px solid #735775;
   color: #666666;
   text-decoration-color: #735775;
-  font-family: "Perpetua";
+  font-family: "Perpetua", serif;
   font-size: 20px;
   transition: all 0.2s ease-in-out;
 }
@@ -739,7 +739,7 @@ nav.menu ul li a .fa-chevron-down {
   padding: 16px 36px;
   border: 2px solid #735775;
   background: transparent;
-  font-family: "Perpetua";
+  font-family: "Perpetua", serif;
   font-size: 1.2em;
   color: #666666;
   margin: 1rem 1rem 1rem 0;
@@ -754,7 +754,7 @@ select#gallery-filter {
   background: transparent;
   background: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHBvbHlnb24gY2xhc3M9ImNscy0yIiBwb2ludHM9IjEuNDEgNC42NyAyLjQ4IDMuMTggMy41NCA0LjY3IDEuNDEgNC42NyIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIzLjU0IDUuMzMgMi40OCA2LjgyIDEuNDEgNS4zMyAzLjU0IDUuMzMiLz48L3N2Zz4=)
     no-repeat 100% 50%;
-  font-family: "Perpetua";
+  font-family: "Perpetua", serif;
   font-size: 1.2em;
   color: #666666;
   -webkit-appearance: none;
@@ -826,7 +826,7 @@ select#gallery-filter {
   border: 2px solid white;
   color: white;
   text-decoration-color: white;
-  font-family: "Perpetua";
+  font-family: "Perpetua", serif;
   font-size: 20px;
   transition: all 0.2s ease-in-out;
   margin: 20px;
@@ -847,7 +847,7 @@ select#gallery-filter {
   font-size: 35px;
   line-height: 35px;
   font-style: italic;
-  font-family: "Perpetua";
+  font-family: "Perpetua", serif;
   color: #666666;
 }
 
@@ -1161,7 +1161,7 @@ footer .button {
   border: 2px solid #735775;
   color: #666666;
   text-decoration-color: #735775;
-  font-family: "Perpetua";
+  font-family: "Perpetua", serif;
   transition: all 0.2s ease-in-out;
 }
 
@@ -1172,7 +1172,7 @@ footer .button:hover {
 
 .footer-title {
   font-size: 24px;
-  font-family: "Perpetua";
+  font-family: "Perpetua", serif;
   color: #735775;
   font-weight: lighter;
 }
@@ -1277,7 +1277,7 @@ label.umbraco-forms-label,
 /* Title desc/RTE fields */
 .titleanddescription .umbraco-forms-field-wrapper h2,
 .richtext .umbraco-forms-field-wrapper h2 {
-  font-family: "Perpetua";
+  font-family: "Perpetua", serif;
   font-size: 48px;
   color: #735775;
   font-weight: lighter;
@@ -1305,7 +1305,7 @@ label.umbraco-forms-label,
   color: #666666;
   background-color: #fff;
   text-decoration-color: #735775;
-  font-family: "Perpetua";
+  font-family: "Perpetua", serif;
   transition: all 0.2s ease-in-out;
 }
 
