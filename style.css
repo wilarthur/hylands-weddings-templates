@@ -1050,7 +1050,7 @@ table {
   margin: 50px 0;
   width: 100%;
   text-align: left;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 30px;
   margin-bottom: 20px;
   color: #666666;
@@ -1059,6 +1059,10 @@ table {
 
 th {
   font-weight: bold;
+}
+
+td {
+  padding: 10px;
 }
 
 /* Gallery */
