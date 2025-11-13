@@ -495,7 +495,7 @@ nav.menu ul li a .fa-chevron-down {
 .content-left .wrapper img,
 .content-right .wrapper img {
   width: 50%;
-  object-fit: cover;
+  object-fit: contain;
   padding: 25px;
 }
 
