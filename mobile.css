@@ -163,3 +163,14 @@
     line-height: 1.5;
   }
 }
+
+@media screen and (max-width: 400px) {
+  table {
+    font-size: 14px;
+    line-height: 1rem;
+  }
+
+  td {
+    padding: 0.5rem;
+  }
+}
