@@ -78,6 +78,10 @@
     line-height: 1.5;
   }
 
+.content-left .wrapper .content, .content-right .wrapper .content{
+  padding: 0;
+}
+
   .content-centre .wrapper p,
   .content-left .wrapper .content p,
   .content-right .wrapper .content p {
