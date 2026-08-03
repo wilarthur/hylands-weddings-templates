@@ -51,7 +51,15 @@
   .hero,
   .hero img,
   .hero-overlay {
-    height: 50vh;
+    height: 60vh;
+  }
+
+  .hero-text h1 {
+    font-size: 40px;
+  }
+
+  .hero-text p {
+    font-size: 20px;
   }
 
   .content-centre,
